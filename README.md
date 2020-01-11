@@ -13,7 +13,7 @@ npm i turkish-id-checker
 ```javascript
 let checkId = require('turkish-id-checker')
 
-// Parameter should be a String or Number
+// Parameter should be a String or a Number
 checkId('15973515680') // Returns an Object with status and display keys in it.
 checkId('15973515680').status // Returns true
 checkId(15973515680).display // Returns 'This is a valid Turkish National ID'
@@ -25,7 +25,7 @@ Visit [Live Demo](https://id-checker.netlify.com/)
 
 ## Testing
 
-There are some unit tests in `/tests/idCheck.spec.js` which wrote with Jest. Should `npm install jest` to your project to run those tests.
+There are some unit tests in `/tests/idCheck.spec.js` which written with Jest. Should `npm install jest` to your project if you want to run those tests.
 
 ## Contributing
 
