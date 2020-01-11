@@ -1,0 +1,12 @@
+{
+  "name": "turkish-id-checker",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["turkish-id-checker", "id-checker", "id-check", "turkish-id-check", "id-validation", "turkish-id-validation", "id-validate"],
+  "author": "kaangokdemir | Kaan Gökdemir | kaangokdemir01@gmail.com",
+  "license": "ISC"
+}
