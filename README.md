@@ -1,8 +1,4 @@
-# Project Name
-
-Turkish National ID Checker
-
-## Description
+# Turkish National ID Checker
 
 This is a simple Turkish National Id Checking package which created for developers to use in their form elements or any spesific usage. 
 
