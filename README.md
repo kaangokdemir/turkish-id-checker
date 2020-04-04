@@ -1,6 +1,8 @@
 # Turkish National ID Checker
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![npm package](https://img.shields.io/npm/v/turkish-id-checker.svg)](https://www.npmjs.org/package/turkish-id-checker) [![downloads](https://img.shields.io/npm/dt/turkish-id-checker.svg)](https://www.npmjs.com/package/turkish-id-checker) [![size](https://img.shields.io/bundlephobia/minzip/turkish-id-checker)](https://www.npmjs.com/package/turkish-id-checker)
 
 This is a simple Turkish National Id Checking package which created for developers to use in their form elements or any spesific usage. 
+
 
 ## Installation
 
