@@ -27,7 +27,14 @@ Visit [Live Demo](https://id-checker.netlify.com/)
 
 ## Testing
 
-There are some unit tests in `/tests/idCheck.spec.js` which written with Jest. Should `npm install jest` to your project if you want to run those tests.
+```
+npm run test
+```
+## Build
+
+```
+npm run build
+```
 
 ## Contributing
 
