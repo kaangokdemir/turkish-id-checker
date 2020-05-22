@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "npx jest",
-    "build": "parcel build index.ts"
+    "build": "parcel build index.ts",
+    "prepublishOnly": "npm run build && npm version patch"
   },
   "keywords": [
     "turkish-id-checker",
