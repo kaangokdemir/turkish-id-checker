@@ -1,6 +1,6 @@
 {
   "name": "turkish-id-checker",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A package which checks if a number or string is a valid Turkish ID or not.",
   "main": "dist/index.js",
   "scripts": {
