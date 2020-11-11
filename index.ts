@@ -63,7 +63,7 @@ const generateId = (): string => {
 
   const [oddsSum, evensSum] = oddsAndEvensSum;
 
-  const tenthDigit = (7 * oddsSum - evensSum) % 10;
+  const tenthDigit = Math.abs((7 * oddsSum - evensSum)) % 10;
   const eleventhDigit = (oddsSum + evensSum + tenthDigit) % 10;
 
   return firstNineDigits + tenthDigit + eleventhDigit;
