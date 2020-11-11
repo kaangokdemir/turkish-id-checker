@@ -1,4 +1,4 @@
-const checkId = require('turkish-id-checker');
+const {checkId} = require('turkish-id-checker');
 const ExampleIdNumbers = require('./exampleData');
 
 test('10 different valid Turkish ID strings', () => {
@@ -35,7 +35,7 @@ test("A number less than 11 characters shouldn't pass the tests", () => {
 
 test("A number greater than 11 characters shouldn't pass the tests", () => {
   expect(
-    checkId(Math.floor(Math.random() * 10000000000000000).toString()).status
+    checkId(Math.floor((Math.random() || 1) * 10000000000000000).toString()).status
   ).toBe(false);
 });
 
@@ -46,7 +46,7 @@ test("Ataturk's ID should display a special message", () => {
 });
 
 test("A number starting with 0 shouldn't pass the test", () => {
-  let value = '0' + Math.floor(Math.random() * 10000000000).toString();
+  let value = '0' + Math.floor((Math.random() || 1) * 10000000000).toString();
   expect(checkId(value).status).toBe(false);
   expect(checkId(value).display).toBe("First letter can't be 0");
 });
