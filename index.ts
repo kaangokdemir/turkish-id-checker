@@ -47,4 +47,26 @@ const checkId = (payload: string | number): Result => {
   return result
 }
 
-module.exports = checkId
+const getRandomNumberBetween = (min: number, max: number): number => {
+  min = Math.ceil(min); // Minimum is inclusive
+  max = Math.floor(max); // Maximum is exclusive
+  return Math.floor(Math.random() * (max - min) + min);
+}
+
+const generateId = (): string => {
+  const firstNineDigits = "" + getRandomNumberBetween(100000000, 1000000000);
+  let oddsAndEvensSum: [number, number] = [0, 0];
+
+  firstNineDigits.split("").forEach((digit, index) => {
+    oddsAndEvensSum[index % 2] += parseInt(digit, 10);
+  });
+
+  const [oddsSum, evensSum] = oddsAndEvensSum;
+
+  const tenthDigit = Math.abs((7 * oddsSum - evensSum)) % 10;
+  const eleventhDigit = (oddsSum + evensSum + tenthDigit) % 10;
+
+  return firstNineDigits + tenthDigit + eleventhDigit;
+}
+
+module.exports = { checkId, generateId };

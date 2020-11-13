@@ -13,12 +13,14 @@ npm i turkish-id-checker
 ## Usage
 
 ```javascript
-let checkId = require('turkish-id-checker')
+let { checkId, generateId } = require('turkish-id-checker')
 
 // Parameter should be a String or a Number
 checkId('15973515680') // Returns an Object with status and display keys in it.
 checkId('15973515680').status // Returns true
 checkId(15973515680).display // Returns 'This is a valid Turkish National ID'
+
+generateId() // Returns a random Turkish National ID
 ```
 
 ## Live Demo
