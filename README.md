@@ -1,12 +1,12 @@
 # Turkish National ID Checker
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![npm package](https://img.shields.io/npm/v/turkish-id-checker.svg)](https://www.npmjs.org/package/turkish-id-checker) [![downloads](https://img.shields.io/npm/dt/turkish-id-checker.svg)](https://www.npmjs.com/package/turkish-id-checker) [![size](https://img.shields.io/bundlephobia/minzip/turkish-id-checker)](https://www.npmjs.com/package/turkish-id-checker)
 
-This is a simple Turkish National Id Checking package which created for developers to use in their form elements or any spesific usage. 
-
+This is a simple Turkish National Id Checking package which created for developers to use in their form elements or any spesific usage.
 
 ## Installation
 
-```
+```bash
 npm i turkish-id-checker
 ```
 
@@ -29,12 +29,13 @@ Visit [Live Demo](https://id-checker.netlify.com/)
 
 ## Testing
 
-```
+```bash
 npm run test
 ```
+
 ## Build
 
-```
+```bash
 npm run build
 ```
 
@@ -46,13 +47,9 @@ npm run build
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request
 
-## TODO
-
-- Add a random valid ID generator too.
-
 ## Contributors
 
-Kaan Gökdemir - Author ([@kaangokdemir](https://twitter.com/kaangokdemir)) - [kaangokdemir.com](https://kaangokdemir.com) 
+Kaan Gökdemir - Author ([@kaangokdemir](https://twitter.com/kaangokdemir)) - [kaangokdemir.com](https://kaangokdemir.com)
 
 ## License
 

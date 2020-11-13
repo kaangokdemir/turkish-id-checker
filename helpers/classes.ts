@@ -1,7 +1,7 @@
 export class Result {
   display: string
   status: boolean
-  constructor() {
+  constructor () {
     this.display = ''
     this.status = false
   }
